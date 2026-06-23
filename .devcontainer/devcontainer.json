@@ -12,7 +12,7 @@
 		},
 		"ghcr.io/postfinance/devcontainer-features/github-cli:1": {
 			"version": "latest",
-			"downloadUrl": "https://mycompany.com/artifactory/github-releases-remote"
+			// "downloadUrl": "https://mycompany.com/artifactory/github-releases-remote"
 		}
 	},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
