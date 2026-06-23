@@ -1,0 +1,13 @@
+{
+	"name": "nova-ai-chat",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"start": "wrangler dev"
+	},
+	"devDependencies": {
+		"wrangler": "^4.103.0"
+	}
+}
