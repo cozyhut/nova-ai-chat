@@ -3,6 +3,7 @@ PROJECT_NAME = "{{ config_root | basename }}"
 MISE_PROJECT_ROOT = "{{ config_root }}"
 
 [tools]
+node = "latest"
 pnpm = "latest"
 
 
