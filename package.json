@@ -8,6 +8,7 @@
 		"start": "wrangler dev"
 	},
 	"devDependencies": {
+		"cf-worker-deploy": "github:cozyhut/cf-worker-deploy",
 		"wrangler": "^4.103.0"
 	}
 }
