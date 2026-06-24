@@ -4,20 +4,21 @@ MISE_PROJECT_ROOT = "{{ config_root }}"
 
 [tools]
 node = "latest"
+pnpm = "latest"
 
 
 [tasks.setup]
 description = "Full project bootstrap: mise tools + deps"
-sources = ["package.json", "package-lock.json"]
+sources = ["package.json", "pnpm-lock.yaml"]
 run = """
 set -e
 echo "📦  Installing dependencies..."
-npm install
+pnpm install
 """
 
 [tasks.deploy]
 description = "Deploy the application"
-run = "npm run deploy"
+run = "pnpm wrangler deploy"
 
 [tasks.test]
 description = "Run tests"
